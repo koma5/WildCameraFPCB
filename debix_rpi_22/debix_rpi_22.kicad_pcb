@@ -103,7 +103,7 @@
 	(footprint "VoXel:fpc_1x22-P0.5mm_pins_only"
 		(layer "F.Cu")
 		(uuid "bf8f3386-5b3e-448a-b9d5-0d986522bcf5")
-		(at 178 134.75 -90)
+		(at 178 135.75 -90)
 		(descr "24 pin FPC connector")
 		(property "Reference" "J3"
 			(at 0 -3 90)
