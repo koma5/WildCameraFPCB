@@ -1266,6 +1266,19 @@
 		(layer "Edge.Cuts")
 		(uuid "ea5b6cf9-aa84-49f1-a948-392c279bb813")
 	)
+	(gr_text "v0.2 http://github.com/koma5/WildCameraFPCB/debix_rpi_22"
+		(at 126.05 134 0)
+		(layer "F.SilkS")
+		(uuid "e0740e61-a25f-434d-a087-239923e71191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 113.887754 133)
 		(end 112 133)
