@@ -1266,7 +1266,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ea5b6cf9-aa84-49f1-a948-392c279bb813")
 	)
-	(gr_text "v0.2 http://github.com/koma5/WildCameraFPCB/debix_rpi_22"
+	(gr_text "v0.2 debix_rpi_22 http://github.com/koma5/WildCameraFPCB"
 		(at 126.05 134 0)
 		(layer "F.SilkS")
 		(uuid "e0740e61-a25f-434d-a087-239923e71191")
