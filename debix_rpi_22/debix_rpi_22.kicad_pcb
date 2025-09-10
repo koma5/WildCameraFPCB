@@ -76,7 +76,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 180 140.65)
+		(grid_origin 110 141.65)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1232,6 +1232,86 @@
 		(uuid "f6f5e152-c1ed-4692-845b-de5a4b6c6874")
 	)
 	(gr_line
+		(start 117.8 129.5)
+		(end 117.8 142)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "1925aa3c-e327-4f28-aded-618b6bf0ad64")
+	)
+	(gr_line
+		(start 180.2 129.5)
+		(end 172.2 129.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "72676a08-0e32-4ef6-b14c-0ea197be6d71")
+	)
+	(gr_line
+		(start 117.8 142)
+		(end 109.8 142)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "77ef3155-ad2c-4b2f-bf5b-2d92461a35ec")
+	)
+	(gr_line
+		(start 109.8 142)
+		(end 109.8 129.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "a483ba2f-6922-4eb1-9796-71dbf0b9b5bc")
+	)
+	(gr_line
+		(start 180.2 141)
+		(end 172.2 141)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "b7ef25e0-fdba-4f46-901b-ffa4f717ce55")
+	)
+	(gr_line
+		(start 109.8 129.5)
+		(end 117.8 129.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "f378e6c5-5033-4003-9595-95072c57c790")
+	)
+	(gr_line
+		(start 172.2 141)
+		(end 172.2 129.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "f688c3b6-1d8c-4f75-a3fc-1dc5f4d2f83d")
+	)
+	(gr_line
+		(start 180.2 141)
+		(end 180.2 129.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "ff53691e-da1c-4c24-a4d0-0efa3222a00b")
+	)
+	(gr_line
 		(start 109.8 142)
 		(end 127.5 142)
 		(stroke
@@ -1300,6 +1380,30 @@
 				(size 1 1)
 				(thickness 0.25)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Stiffener 0.25x8x11.5mm, 0.3mm total height"
+		(at 176.5 128.2 90)
+		(layer "Eco2.User")
+		(uuid "7f7f0093-5017-413b-8c4c-3bd8816afd63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Stiffener 0.25x8x12.5mm, 0.3mm total height"
+		(at 114.6 128.25 90)
+		(layer "Eco2.User")
+		(uuid "e7e96619-5023-4d75-9d9f-2550e5a7b195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
