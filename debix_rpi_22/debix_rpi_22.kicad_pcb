@@ -1206,6 +1206,31 @@
 			)
 		)
 	)
+	(gr_poly
+		(pts
+			(xy 123 139.2) (xy 122.674699 139.489156) (xy 123.499208 139.41746) (xy 123.204278 138.938196)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "15a7e87c-9175-4b42-a3b2-24c584ee9e26")
+	)
+	(gr_curve
+		(pts
+			(xy 123.8 139.5) (xy 123 139.3) (xy 123.55 138.65) (xy 123.75 138.45)
+		)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "f6f5e152-c1ed-4692-845b-de5a4b6c6874")
+	)
 	(gr_line
 		(start 109.8 142)
 		(end 127.5 142)
