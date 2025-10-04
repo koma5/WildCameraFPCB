@@ -38,10 +38,10 @@
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 			)
-			(layer "F.Paste"
+			(layer "B.Paste"
 				(type "Top Solder Paste")
 			)
-			(layer "F.Mask"
+			(layer "B.Mask"
 				(type "Top Solder Mask")
 				(thickness 0.01)
 			)
@@ -60,11 +60,11 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "B.Mask"
+			(layer "F.Mask"
 				(type "Bottom Solder Mask")
 				(thickness 0.01)
 			)
-			(layer "B.Paste"
+			(layer "F.Paste"
 				(type "Bottom Solder Paste")
 			)
 			(layer "B.SilkS"
@@ -201,7 +201,7 @@
 		(pad "1" smd rect
 			(at -5.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -221,7 +221,7 @@
 		(pad "2" smd rect
 			(at -5.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "/csi_d0_N")
 			(pinfunction "Pin_2")
 			(pintype "passive")
@@ -241,7 +241,7 @@
 		(pad "3" smd rect
 			(at -4.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 9 "/csi_d0_P")
 			(pinfunction "Pin_3")
 			(pintype "passive")
@@ -261,7 +261,7 @@
 		(pad "4" smd rect
 			(at -4.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_4")
 			(pintype "passive")
@@ -281,7 +281,7 @@
 		(pad "5" smd rect
 			(at -3.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 16 "/csi_d1_N")
 			(pinfunction "Pin_5")
 			(pintype "passive")
@@ -302,7 +302,7 @@
 		(pad "6" smd rect
 			(at -3.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 6 "/csi_d1_P")
 			(pinfunction "Pin_6")
 			(pintype "passive")
@@ -322,7 +322,7 @@
 		(pad "7" smd rect
 			(at -2.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_7")
 			(pintype "passive")
@@ -342,7 +342,7 @@
 		(pad "8" smd rect
 			(at -2.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 13 "/csi_clk_N")
 			(pinfunction "Pin_8")
 			(pintype "passive")
@@ -362,7 +362,7 @@
 		(pad "9" smd rect
 			(at -1.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/csi_clk_P")
 			(pinfunction "Pin_9")
 			(pintype "passive")
@@ -382,7 +382,7 @@
 		(pad "10" smd rect
 			(at -1.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_10")
 			(pintype "passive")
@@ -402,7 +402,7 @@
 		(pad "11" smd rect
 			(at -0.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 8 "/csi_d2_N")
 			(pinfunction "Pin_11")
 			(pintype "passive")
@@ -422,7 +422,7 @@
 		(pad "12" smd rect
 			(at -0.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 5 "/csi_d2_P")
 			(pinfunction "Pin_12")
 			(pintype "passive")
@@ -442,7 +442,7 @@
 		(pad "13" smd rect
 			(at 0.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_13")
 			(pintype "passive")
@@ -462,7 +462,7 @@
 		(pad "14" smd rect
 			(at 0.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 14 "/csi_d3_N")
 			(pinfunction "Pin_14")
 			(pintype "passive")
@@ -482,7 +482,7 @@
 		(pad "15" smd rect
 			(at 1.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 12 "/csi_d3_P")
 			(pinfunction "Pin_15")
 			(pintype "passive")
@@ -502,7 +502,7 @@
 		(pad "16" smd rect
 			(at 1.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_16")
 			(pintype "passive")
@@ -522,7 +522,7 @@
 		(pad "17" smd rect
 			(at 2.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 18 "/CAM_GPIO_0")
 			(pinfunction "Pin_17")
 			(pintype "passive")
@@ -542,7 +542,7 @@
 		(pad "18" smd rect
 			(at 2.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 17 "/CAM_GPIO_1")
 			(pinfunction "Pin_18")
 			(pintype "passive")
@@ -562,7 +562,7 @@
 		(pad "19" smd rect
 			(at 3.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_19")
 			(pintype "passive")
@@ -582,7 +582,7 @@
 		(pad "20" smd rect
 			(at 3.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "/csi_scl")
 			(pinfunction "Pin_20")
 			(pintype "passive")
@@ -602,7 +602,7 @@
 		(pad "21" smd rect
 			(at 4.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/csi_sda")
 			(pinfunction "Pin_21")
 			(pintype "passive")
@@ -622,7 +622,7 @@
 		(pad "22" smd rect
 			(at 4.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "+3V3")
 			(pinfunction "Pin_22")
 			(pintype "passive")
@@ -715,7 +715,7 @@
 		(pad "1" smd rect
 			(at -5.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 19 "VDD_5V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -735,7 +735,7 @@
 		(pad "2" smd rect
 			(at -5.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "+3V3")
 			(pinfunction "Pin_2")
 			(pintype "passive")
@@ -755,7 +755,7 @@
 		(pad "3" smd rect
 			(at -4.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 11 "+1V8")
 			(pinfunction "Pin_3")
 			(pintype "passive")
@@ -775,7 +775,7 @@
 		(pad "4" smd rect
 			(at -4.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 17 "/CAM_GPIO_1")
 			(pinfunction "Pin_4")
 			(pintype "passive")
@@ -795,7 +795,7 @@
 		(pad "5" smd rect
 			(at -3.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 18 "/CAM_GPIO_0")
 			(pinfunction "Pin_5")
 			(pintype "passive")
@@ -816,7 +816,7 @@
 		(pad "6" smd rect
 			(at -3.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/csi_sda")
 			(pinfunction "Pin_6")
 			(pintype "passive")
@@ -836,7 +836,7 @@
 		(pad "7" smd rect
 			(at -2.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "/csi_scl")
 			(pinfunction "Pin_7")
 			(pintype "passive")
@@ -856,7 +856,7 @@
 		(pad "8" smd rect
 			(at -2.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 20 "unconnected-(J1-Pin_8-Pad8)")
 			(pinfunction "Pin_8")
 			(pintype "passive+no_connect")
@@ -876,7 +876,7 @@
 		(pad "9" smd rect
 			(at -1.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 10 "unconnected-(J1-Pin_9-Pad9)")
 			(pinfunction "Pin_9")
 			(pintype "passive+no_connect")
@@ -896,7 +896,7 @@
 		(pad "10" smd rect
 			(at -1.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_10")
 			(pintype "passive")
@@ -916,7 +916,7 @@
 		(pad "11" smd rect
 			(at -0.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "/csi_d0_N")
 			(pinfunction "Pin_11")
 			(pintype "passive")
@@ -936,7 +936,7 @@
 		(pad "12" smd rect
 			(at -0.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 9 "/csi_d0_P")
 			(pinfunction "Pin_12")
 			(pintype "passive")
@@ -956,7 +956,7 @@
 		(pad "13" smd rect
 			(at 0.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_13")
 			(pintype "passive")
@@ -976,7 +976,7 @@
 		(pad "14" smd rect
 			(at 0.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 16 "/csi_d1_N")
 			(pinfunction "Pin_14")
 			(pintype "passive")
@@ -996,7 +996,7 @@
 		(pad "15" smd rect
 			(at 1.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 6 "/csi_d1_P")
 			(pinfunction "Pin_15")
 			(pintype "passive")
@@ -1016,7 +1016,7 @@
 		(pad "16" smd rect
 			(at 1.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_16")
 			(pintype "passive")
@@ -1036,7 +1036,7 @@
 		(pad "17" smd rect
 			(at 2.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 13 "/csi_clk_N")
 			(pinfunction "Pin_17")
 			(pintype "passive")
@@ -1056,7 +1056,7 @@
 		(pad "18" smd rect
 			(at 2.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/csi_clk_P")
 			(pinfunction "Pin_18")
 			(pintype "passive")
@@ -1076,7 +1076,7 @@
 		(pad "19" smd rect
 			(at 3.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_19")
 			(pintype "passive")
@@ -1096,7 +1096,7 @@
 		(pad "20" smd rect
 			(at 3.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 8 "/csi_d2_N")
 			(pinfunction "Pin_20")
 			(pintype "passive")
@@ -1116,7 +1116,7 @@
 		(pad "21" smd rect
 			(at 4.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 5 "/csi_d2_P")
 			(pinfunction "Pin_21")
 			(pintype "passive")
@@ -1136,7 +1136,7 @@
 		(pad "22" smd rect
 			(at 4.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 7 "GND")
 			(pinfunction "Pin_22")
 			(pintype "passive")
@@ -1156,7 +1156,7 @@
 		(pad "23" smd rect
 			(at 5.25 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 14 "/csi_d3_N")
 			(pinfunction "Pin_23")
 			(pintype "passive")
@@ -1176,7 +1176,7 @@
 		(pad "24" smd rect
 			(at 5.75 0 270)
 			(size 0.3 4)
-			(layers "B.Cu" "F.Mask" "F.Paste")
+			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 12 "/csi_d3_P")
 			(pinfunction "Pin_24")
 			(pintype "passive")
